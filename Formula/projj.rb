@@ -1,15 +1,15 @@
 class Projj < Formula
   desc "Manage git repositories with directory conventions"
   homepage "https://github.com/popomore/projj"
-  version "3.0.0"
+  version "3.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/popomore/projj/releases/download/v3.0.0/projj-aarch64-apple-darwin.tar.xz"
-      sha256 "1ef0c72db678a6eaa05e319107c16a253aa30e6f941f70be7cae34e29fa8426d"
+      url "https://github.com/popomore/projj/releases/download/v3.1.0/projj-aarch64-apple-darwin.tar.xz"
+      sha256 "5a1e0ba701c1012f59a2809f068cc6584f384b92abe63874422298fcbd3f2581"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/popomore/projj/releases/download/v3.0.0/projj-x86_64-apple-darwin.tar.xz"
-      sha256 "7997f1fc7181d684d1d5e73c4fd3b7afb25c3c94dd7a84dd33452f080de8ab3b"
+      url "https://github.com/popomore/projj/releases/download/v3.1.0/projj-x86_64-apple-darwin.tar.xz"
+      sha256 "5b61cd0252371c570b602b0f5f2ad6a87156109dbc7e4b120e4dacdea2bad8bb"
     end
   end
   license "MIT"
