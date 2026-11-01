@@ -1,24 +1,7 @@
+# Homebrew tap
 
 ## Release contract
 
-This optional tap currently has no formula or independent build output. Product builds and release adapters belong to their source repositories and meta. Formula updates can consume a verified version and checksum when a product declares Homebrew distribution; this migration does not create an empty release workflow.
+This tap already distributes Projj through `Formula/projj.rb` (currently version 3.2.0), with separate macOS ARM64 and Intel release URLs and SHA-256 checksums. Formula maintenance updates those verified upstream artifacts; this migration does not change the formula or rebuild Projj.
 
-## Release contract
-
-This optional tap currently has no formula or independent build output. Product builds and release adapters belong to their source repositories and meta. Formula updates can consume a verified version and checksum when a product declares Homebrew distribution; this migration does not create an empty release workflow.
-
-## Release contract
-
-This optional tap currently has no formula or independent build output. Product builds and release adapters belong to their source repositories and meta. Formula updates can consume a verified version and checksum when a product declares Homebrew distribution; this migration does not create an empty release workflow.
-
-## Release contract
-
-This optional tap currently has no formula or independent build output. Product builds and release adapters belong to their source repositories and meta. Formula updates can consume a verified version and checksum when a product declares Homebrew distribution; this migration does not create an empty release workflow.
-
-## Release contract
-
-This optional tap currently has no formula or independent build output. Product builds and release adapters belong to their source repositories and meta. Formula updates can consume a verified version and checksum when a product declares Homebrew distribution; this migration does not create an empty release workflow.
-
-## Release contract
-
-This optional tap currently has no formula or independent build output. Product builds and release adapters belong to their source repositories and meta. Formula updates can consume a verified version and checksum when a product declares Homebrew distribution; this migration does not create an empty release workflow.
+Product builds and shared release adapters belong to their source repositories and meta. Future formulas for other products must likewise consume a declared, verified version and checksum. This distribution repository needs no independent artifact-build workflow.
